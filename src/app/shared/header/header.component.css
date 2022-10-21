@@ -1,0 +1,21 @@
+.logo-gobernacion {
+  width: 150px;
+}
+
+@media (min-width: 300px) {
+  .logo-gobernacion {
+    width: 200px;
+  }
+}
+
+@media (min-width: 576px) {
+  .logo-gobernacion {
+    width: 380px;
+  }
+}
+
+.nav-link--text {
+  font-size: 1.2rem;
+  font-family: 'Oswald',
+    sans-serif;
+}

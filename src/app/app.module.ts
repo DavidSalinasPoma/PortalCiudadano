@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 // Modulos personalizados
 import { AuthModule } from './auth/auth.module';
 import { PagesModule } from './pages/pages.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Para peticiones HTTP
 import { HttpClientModule } from '@angular/common/http';
@@ -14,7 +15,6 @@ import { HttpClientModule } from '@angular/common/http';
 // Componentes principales de APP
 import { AppComponent } from './app.component';
 import { NopagescomponentComponent } from './nopagescomponent/nopagescomponent.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Notificaciones Toastr
 import { ToastrModule } from 'ngx-toastr';

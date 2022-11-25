@@ -18,8 +18,8 @@ export class CorrespondenciaService {
   listaSeguimiento(formData: any) {
     // console.log(formData);
 
-    let parameters = new HttpHeaders();
+    let headers = new HttpHeaders();
 
-    return this.http.post<any>(base_url + '/Restserver/test', formData);
+    return this.http.post<any>(base_url + '/Restserver/test', formData, { headers: headers });
   }
 }

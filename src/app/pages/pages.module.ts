@@ -27,6 +27,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 
 // Componente para paginación
 import { NgxPaginationModule } from 'ngx-pagination';
+import { ConsultarComponent } from './consultar/consultar.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { NgxPaginationModule } from 'ngx-pagination';
     HomeComponent,
     CorrespondenciaComponent,
     AcercaComponent,
-    ContactanosComponent
+    ContactanosComponent,
+    ConsultarComponent
   ],
   imports: [
     CommonModule,
@@ -52,7 +54,8 @@ import { NgxPaginationModule } from 'ngx-pagination';
   exports: [
     PagesComponent,
     HomeComponent,
-    CorrespondenciaComponent
+    CorrespondenciaComponent,
+    ConsultarComponent
   ]
 })
 export class PagesModule { }

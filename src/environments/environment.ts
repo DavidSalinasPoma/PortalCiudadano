@@ -5,9 +5,10 @@
 export const environment = {
   // Cambiar para subir a producción
   production: true,
-  // base_url: "http://correspondenciahelp.gobernacion.net/"
-  base_url: "http://localhost/sicoinst2"
-  // base_url: "http://172.16.32.26/sicoinst2"
+  // base_url: "http://correspondenciahelp.gobernacion.net/",
+  // base_url: "http://localhost/sicoinst2"
+  // base_url: "https://correspondencia.gobernaciondecochabamba.bo"
+  base_url: "http://172.16.32.26/sicoinst2"
   // base_url: "http://200.58.80.84/sicoinst2"
 };
 

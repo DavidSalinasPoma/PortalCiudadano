@@ -1,3 +1,4 @@
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  public contador: number = 0;
+
+  constructor() {
+
+    // const paralax = localStorage.getItem('parallax');
+    // console.log(paralax);
+
+    // if (paralax) {
+    //   this.contador = 1;
+    // } else {
+    //   localStorage.setItem('parallax', '0')
+    // }
+
+  }
 
   ngOnInit(): void {
 
@@ -19,5 +33,7 @@ export class HomeComponent implements OnInit {
     });
 
   }
+
+
 
 }

@@ -1,8 +1,10 @@
 <!-- Menu navegación -->
 <app-header></app-header>
 
-<!--Componente Parallax -->
-<app-parallax></app-parallax>
+<div *ngIf="this.contador !=0" class="">
+  <!--Componente Parallax -->
+  <app-parallax></app-parallax>
+</div>
 
 
 <div class="col-12 mt-5 mb-5 text-center">

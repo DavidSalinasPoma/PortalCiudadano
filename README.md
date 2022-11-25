@@ -24,7 +24,6 @@ const routes: Routes = [
 # Paso 5: Crear componentes NopagesFoundComponent en la Raiz(app.module)
 
 1. comando: ng g c nopagescomponent --skip-tests --module app
-
 2. Configurando Nopagesfoundcomponenet en app-routing.module.ts
 3. Declarar todos los modulos secundarios en app.module.ts
 4. Declara todas las rutas secundarias en el app-routing.module.ts
@@ -45,7 +44,6 @@ const routes: Routes = [
 1. ng g m pages/pages --routing --flat
 2. Crear el componente pages donde va a funcionar el pages-routing.ts
 3. ng g c pages --skip-tests --module pages
-4.
 
 # Paso 8: Crear La carpeta SHARED que sera compartida en toda la app con su modulo
 

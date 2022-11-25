@@ -14,6 +14,11 @@ import { ToastrService } from 'ngx-toastr';
 // Servicios
 import { DestinatariosService } from 'src/app/services/destinatarios.service';
 
+// Utilizando jquery
+declare var JQuery: any;
+declare var $: any;
+
+
 @Component({
   selector: 'app-correspondencia',
   templateUrl: './correspondencia.component.html',
@@ -121,12 +126,10 @@ export class CorrespondenciaComponent implements OnInit {
     this.correspondenciaServices.listaSeguimiento(formData)
       .subscribe(({ destinatario, detalleSeguimiento, status }) => {
 
-
         this.carnet?.reset();
 
         // console.log(detalleSeguimiento);
         // console.log(destinatario);
-
 
         // console.log(status);
         this.listDestinatarios = [];
